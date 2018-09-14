@@ -38,7 +38,7 @@ int main(int argc, char* argv[])
 	// 1. t_user
 	STableInfo info;
     info.m_strName = "friend";
-    info.m_mapField["id"] = { "id", "bigint(20) NOT NULL AUTO_INCREMENT COMMENT '子增ID'", "bigint(20)" };
+    info.m_mapField["id"] = { "id", "bigint(20) NOT NULL AUTO_INCREMENT COMMENT '自增ID'", "bigint(20)" };
     info.m_mapField["name"] = { "name", "varchar(64) NOT NULL COMMENT '名字'", "varchar(64)" };
     info.m_mapField["age"] = { "age", "int(10) NOT NULL COMMENT '年龄'", "int(10)" };
     info.m_mapField["phonenumber"] = { "phonenumber", "varchar(64) DEFAULT NULL COMMENT '电话'", "varchar(64)" };
